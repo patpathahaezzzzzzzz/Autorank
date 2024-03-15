@@ -1,7 +1,1 @@
-print("Premuim 4o0yDCF5")
-getgenv().AuthKey = "HUGE_EVLo3bTGTxVJ"
-getgenv().temporaryDomain = true
-getgenv().LoadSettings = {
-    Example_Setting = Example_Value
-}
-loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
+
