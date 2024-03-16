@@ -6,6 +6,6 @@ getgenv().LoadSettings = {
 loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
 
 repeat wait() until game:IsLoaded()
-wait(340)
+wait(450)
 loadstring(game:HttpGet("https://hugegames.space/1f3cf476ecba4ee66e9ca774.lua"))()
 
