@@ -5,8 +5,6 @@ getgenv().LoadSettings = {
 }
 loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
 
-ios :https://www.mediafire.com/file/o2kglgksygv9yfd/Codex2.165.ipa/file
-
 repeat wait() until game:IsLoaded()
 wait(120)
 local plr = game.Players.LocalPlayer
