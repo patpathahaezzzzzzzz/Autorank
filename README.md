@@ -1,52 +1,15 @@
-_G.GPROGRESS_MODE = "Hybrid" -- options: Ranks / Zones / Hybrid  , Ranks stays put at your max zone & focuesses on ranking up, Zones just farms to max zone, Hybrid does both at once., default is Hybrid.
-_G.GRANK_TO = 18 -- if you want the script to stop at a specific rank, not sure why you would want this.
-_G.GMAX_EGG_SLOTS = 20
-_G.GMAX_EQUIP_SLOTS = 20
-_G.GHOLD_GIFTS = false  -- set this to true when you don't want it to use consume your giftbags, large giftbags, mini chests.
-_G.GHOLD_BUNDLES = false  -- set this to true if you don't want it to use your flag,potion,toy,enchant bundles.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/patpathahaezzzzzzzz/Autorank/main/ps99"))()
+Dear [Buyers],
 
-Hello, I've created a trial for auto-ranking and would appreciate your experience or feedback on the script so I can improve it
+I hope this message finds you well. I am writing to address a recent and deeply regrettable incident that has affected our website. It has come to our attention that our platform was compromised, resulting in unauthorized access and alterations to our script.
 
-🤖 Advanced Autocomplete Script!
-Automated Ranking, Autoworld, Autofarm
-🔥 Top Features
-Rank & Complete Zones at the same time.
-Supports all quests including all obbies & fishing & digging.
-Use config to decide at what Rank or Zone to stop.
-Works on fresh alts, even selects starter pets.
-Works till max Rank.
-Developed on & tested for emulators as well
-RANK_TO , ZONE_TO & REBIRTH_TO config options provide the perfect way of making a fresh alt progress & rank in the way you want for your needs.
-🔀 Dynamic Modes
-Zones: Accelerate through zones.
-Ranks: Focus on zone-specific achievements.
-Hybrid: Rank up & buy Zones at the same time!
-🤯 Key Features
-Auto-tapper with priority targets.
-Potions and enchantments auto-upgrade.
-Vending machines and free items automated.
-Hidden present collection.
-Daily and Rank rewards auto-collect.
-Anti AFK feature.
-Auto Orb/Lootbag collection.
-Annoying GUIs auto-close.
-Infinite pet speed.
-Emulator compatibility.
-Auto-recovery from map glitches/stairway issues.
-Egg hatching automated; Egg animations removed.
-🚀 Accelerate Your Progress
-Automatically retrieves and uses mailed items.
-Map upgrade purchases within set gem limits.
-Auto Potions(configurable)
-Auto Enchant equip(configurable)
-Auto Toys
-Auto Fruits
-🛠 Customizable Gameplay
-Offers settings for pet and egg slots, completing hatching quests.
-Auto Hop setting
-💎 VIP and Enchantment Strategy
-Spawns jars, comets, luck blocks, and piñatas.
-Utilizes VIP zones for specific quests.
-Auto-equips best enchantments with configuration for order.
-Elevate your gaming experience with strategic automation. Get ready to dominate!
+First and foremost, please accept my sincerest apologies for any inconvenience or distress this may have caused you. We understand the gravity of the situation and the importance of maintaining the integrity and security of our services.
+
+Upon discovering the breach, our team immediately initiated a thorough investigation to assess the extent of the damage and to implement necessary measures to prevent such occurrences in the future. We are working diligently to rectify the situation and restore our systems to their previous state.
+
+We understand the frustration and concern this incident may have caused you, and we want to assure you that safeguarding your data and ensuring the security of our platform are our top priorities. We are committed to transparency throughout this process and will keep you informed of any developments.
+
+In the meantime, if you have any questions or concerns, please do not hesitate to reach out to our support team. We are here to assist you in any way we can and to provide any additional information you may require.
+
+Once again, I apologize for any inconvenience this has caused, and I thank you for your understanding and patience as we work to resolve this matter.
+
+Sincerely,HUGEGAMES TEAM!
