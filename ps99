@@ -5,10 +5,10 @@ getgenv().RngEvent = {
     Visible_Rolling = false,
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
-    AutoUpgrades_Enabled = false,
+    AutoUpgrades_Enabled = true,
     AutoMerchant_Enabled = true,
     AutoSellPets_Enabled = false,
-    AutoSell_OnlyEventPets = false,
+    AutoSell_OnlyEventPets = true,
     AutoBreakChests_Enabled = true,
     Lucky_Dice_Enabled = true,
     Lucky_Dice_Config = {
