@@ -1,33 +1,5 @@
-getgenv().RngEvent = {
-    Selected_RngEgg = "First",
-    Rolling_Enabled = true,
-    Rolling_Delay = 0.1,
-    Visible_Rolling = false,
-
-    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
-    AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = true,
-    AutoSellPets_Enabled = false,
-    AutoSell_OnlyEventPets = true,
-    AutoBreakChests_Enabled = true,
-    Lucky_Dice_Enabled = true,
-    Lucky_Dice_Config = {
-        ["Fire Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice"] = {Craft = false, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice II"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice III"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = 9},
-    },
-
-    Webhook_Url = "https://discord.com/api/webhooks/1264646233247715350/3lKHFLk9OWhakA_BuVG8ja-HyGD-HQjOZKvS_Dsqy22yTbAY5zG07QBu90PkloWyWCF6",
-    Discord_UserID = "669513713530699789",
-    Huge_Mail_User = "prinzemark1023",
-    Huge_Mail_Enabled = true,
-
-    fps_boost = true,
-    fps_boost2 = true,
-    gui_stats_enabled = true,
-    print_all_info = false,
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
+getgenv().AuthKey = "HUGE_HYARsu18jErU"
+    getgenv().LoadSettings = {
+        Example_Setting = 2
+    }
+    loadstring(game:HttpGet("https://hugegames.io/ps99"))()
