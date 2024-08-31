@@ -1,1 +1,63 @@
 
+local Lib = require(game.ReplicatedStorage:WaitForChild("Library"))
+
+-- Function to disable effects in tables, with error handling for nil values
+function disableEffectsInTable(tbl)
+    if type(tbl) ~= "table" then return end
+    for i, v in pairs(tbl) do
+        if type(v) == "function" then
+            tbl[i] = function(...) return end
+        elseif type(v) == "table" then
+            disableEffectsInTable(v)
+        end
+    end
+end
+
+-- Disable effects in the Library tables if they exist
+if Lib and Lib.WorldFX then
+    disableEffectsInTable(Lib.WorldFX)
+end
+
+if Lib and Lib.NotificationCmds and Lib.NotificationCmds.Item then
+    disableEffectsInTable(Lib.NotificationCmds.Item)
+end
+
+-- Function to optimize parts by making them invisible or disabling effects
+function optimizeParts(obj)
+    if obj:IsA("MeshPart") then
+        obj.MeshId = ""
+    end
+    if obj:IsA("BasePart") or obj:IsA("MeshPart") then
+        obj.Transparency = 1
+        obj.CastShadow = false -- Disable shadow casting for better optimization
+    end
+    if obj:IsA("Texture") or obj:IsA("Decal") then
+        obj.Texture = ""
+    end
+    if obj:IsA("ParticleEmitter") then
+        obj.Lifetime = NumberRange.new(0)
+        obj.Transparency = NumberSequence.new(0)
+        obj.Enabled = false
+    end
+    if obj:IsA("BillboardGui") or obj:IsA("SurfaceGui") or obj:IsA("Trail") or obj:IsA("Beam") then
+        obj.Enabled = false
+    end
+    if obj:IsA("Highlight") then
+        obj.OutlineTransparency = 1
+        obj.FillTransparency = 1
+    end
+end
+
+-- Loop through all descendants in the game and optimize them
+for _, obj in ipairs(game:GetDescendants()) do
+    optimizeParts(obj)
+end
+
+-- Auto-delete orbs for better performance
+game:GetService("RunService").Stepped:Connect(function()
+    for _, orb in ipairs(workspace:GetChildren()) do
+        if orb.Name == "Orb" then
+            orb:Destroy() -- Deletes orbs to prevent clutter and improve performance
+        end
+    end
+end)
