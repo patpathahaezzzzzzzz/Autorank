@@ -11,7 +11,7 @@ getgenv().KiTTYWARE_ColorWar = {
     },
     Hatch_Eggs = true,
     Hatching_Misc = {
-        discord_UserID = "",
+        discord_UserID = "669513713530699789",
         hugeNotif_Webhook = "https://discord.com/api/webhooks/1264646233247715350/3lKHFLk9OWhakA_BuVG8ja-HyGD-HQjOZKvS_Dsqy22yTbAY5zG07QBu90PkloWyWCF6",
         hugeNotif_Enabled = true,
         autoMail_User = "prinzemark1023",
